@@ -1,9 +1,11 @@
 /*
 countingSort: Questa funzione implementa l'algoritmo Counting Sort. Prima, trova il valore massimo e minimo nell'array per calcolare 
-il range di valori possibili. Poi, inizializza un vettore di conteggio (count) per tenere traccia delle occorrenze di ciascun valore nell'array. Successivamente, utilizza questo conteggio per posizionare correttamente ciascun elemento nell'array di output in base alle occorrenze. Alla fine, l'array di output diventa l'array ordinato.
+il range di valori possibili. Poi, inizializza un vettore di conteggio (count) per tenere traccia delle occorrenze di ciascun valore nell'array. 
+Successivamente, utilizza questo conteggio per posizionare correttamente ciascun elemento nell'array di output in base alle occorrenze. Alla fine, l'array di output diventa l'array ordinato.
 
 radixSort: Questa funzione implementa l'algoritmo Radix Sort in base 10. Inizia determinando il valore massimo nell'array 
-e utilizza la variabile exp per iterare attraverso le cifre dei numeri. Per ciascuna cifra, conta le occorrenze delle cifre correnti in ciascun elemento dell'array e calcola le posizioni finali di queste cifre nell'output. Infine, riordina l'array in base alla cifra corrente. L'iterazione continua finché tutte le cifre sono state considerate.
+e utilizza la variabile exp per iterare attraverso le cifre dei numeri. Per ciascuna cifra, conta le occorrenze delle cifre correnti in ciascun elemento dell'array 
+e calcola le posizioni finali di queste cifre nell'output. Infine, riordina l'array in base alla cifra corrente. L'iterazione continua finché tutte le cifre sono state considerate.
 
 bucketSort: Questa funzione implementa l'algoritmo Bucket Sort. Distribuisce gli elementi nell'array in "secchi" (bucket) 
 in base al loro valore. Ogni secchio contiene elementi con valori in una determinata gamma. Successivamente, ordina ciascun 
