@@ -2,7 +2,7 @@
 problema 3 - 4 novembre
 problema sciatore
 Longest Run on a Snowboard
-complessità O(n!)
+complessità O(4^(n*m))
 */
 #include <iostream>
 #include <vector>
