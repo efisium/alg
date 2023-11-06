@@ -5,7 +5,7 @@ PROBLEMA 1
 Stampare tutti i possibili percorsi dall'alto a sinistra in basso a destra di una matrice mXn con il 
 vincolo che da ogni cella puoi spostarti solo a destra o in basso.
 
-Complessita O(n!) dato che bisogna visitare ogni nodo
+Complessita O(n!) dato che bisogna visitare ogni percorso possibile
 */
 
 
